@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Energy Management System (EMS)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>AI-Powered Energy Management System</h1>
+    </header>
+    <main>
+        <section id="data-input">
+            <h2>Enter Your Energy Usage Data</h2>
+            <form id="energy-form">
+                <label for="electricity">Electricity Usage (kWh):</label>
+                <input type="number" id="electricity" name="electricity" required>
+                <label for="gas">Gas Usage (kWh):</label>
+                <input type="number" id="gas" name="gas" required>
+                <button type="submit">Optimize Energy</button>
+            </form>
+        </section>
+        <section id="results" style="display:none;">
+            <h2>Optimization Results</h2>
+            <p id="optimization-message"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Special Tree ltd. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
